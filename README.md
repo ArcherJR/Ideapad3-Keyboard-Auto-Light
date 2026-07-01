@@ -40,7 +40,7 @@ Mantık: Belirlenen eşik saatlerine (gün doğumu/gün batımı vb.) göre isw 
 
 Geri Bildirim: İşlem başarıyla sonuçlandığında, notify-send ile kullanıcıya masaüstü bildirimi gönderilir.
 
-
+##
 
 EN: The system consists of an autonomous loop running in the background:
 
