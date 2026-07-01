@@ -8,15 +8,15 @@
 by ArcherJR
 <h1></h1>
 
-Projenin Kısaca Hikayesi:
+Projenin Hikayesi / Project Overview
 
-IdeaPad 3 serisi laptoplarda varsayılan olarak herhangi bir otomatik klavye aydınlatma mekanizmasına sahip değildir. Bu eksikliği gidermek ve manuel müdahale ihtiyacını ortadan kaldırarak kullanıcı konforunu artırmak adına, doğrudan EC (Embedded Controller) seviyesinde çalışan tamamen otonom bir aydınlatma sistemi geliştirilmiştir.
+TR: IdeaPad 3 serisi laptoplarda varsayılan olarak herhangi bir otomatik klavye aydınlatma mekanizmasına sahip değildir. Bu eksikliği gidermek ve manuel müdahale ihtiyacını ortadan kaldırarak kullanıcı konforunu artırmak adına, doğrudan EC (Embedded Controller) seviyesinde çalışan tamamen otonom bir aydınlatma sistemi geliştirilmiştir.
 
-IdeaPad 3 series laptops do not feature a default automatic keyboard lighting temperature range. To eliminate the need for manual intervention and enhance user comfort, a fully autonomous lighting system operates directly at the EC (Embedded Controller) level.
+EN: IdeaPad 3 series laptops do not feature a default automatic keyboard lighting temperature range. To eliminate the need for manual intervention and enhance user comfort, a fully autonomous lighting system operates directly at the EC (Embedded Controller) level.
 
 <h1></h1>
 
-System Requirements İşletim Sistemi:
+İşletim Sistemi / System Requirements:
 
 Ubuntu 24.04 (GNOME Desktop).(önerilen) Çekirdek Desteği: ec_sys modülü write_support=1 parametresi ile yüklü olmalıdır. Kütüphaneler: python3, libnotify-bin (Desktop bildirimleri için). EC Kontrol: MSI cihazlar için geliştirilen ancak EC adresi üzerinden veri yazma yeteneği sayesinde Ideapad serisine adapte edilen isw aracı. Yetkilendirme: sudo visudo üzerinden NOPASSWD parametresi ile isw komutuna şifresiz erişim yetkisi.
 
