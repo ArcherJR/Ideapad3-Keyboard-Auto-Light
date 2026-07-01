@@ -10,8 +10,10 @@ by ArcherJR
 
 Projenin Kısaca Hikayesi:
 
-IdeaPad 3 serisi donanımlar varsayılan olarak herhangi bir otomatik klavye aydınlatma mekanizmasına sahip değildir. Bu eksikliği gidermek ve manuel müdahale ihtiyacını ortadan kaldırarak kullanıcı konforunu artırmak adına, doğrudan EC (Embedded Controller) seviyesinde çalışan tamamen otonom bir aydınlatma sistemi geliştirilmiştir.
-Autonomous keyboard backlight controller for Lenovo IdeaPad 3 on Linux. Engineered for EC-level hardware interaction via isw.
+IdeaPad 3 serisi laptoplarda varsayılan olarak herhangi bir otomatik klavye aydınlatma mekanizmasına sahip değildir. Bu eksikliği gidermek ve manuel müdahale ihtiyacını ortadan kaldırarak kullanıcı konforunu artırmak adına, doğrudan EC (Embedded Controller) seviyesinde çalışan tamamen otonom bir aydınlatma sistemi geliştirilmiştir.
+
+IdeaPad 3 series laptops do not feature a default automatic keyboard lighting temperature range. To eliminate the need for manual intervention and enhance user comfort, a fully autonomous lighting system operates directly at the EC (Embedded Controller) level.
+
 <h1></h1>
 
 System Requirements İşletim Sistemi:
