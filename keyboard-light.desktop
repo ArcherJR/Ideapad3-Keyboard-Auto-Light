@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=bash -c "python3 /home/$USER/keyboardAutoLightForIdeapad3.py"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Keyboard Auto Light Servisi
+Comment=Zaman ayarlı otomatik klavye ışığı kontrolü
