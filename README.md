@@ -16,9 +16,15 @@ EN: IdeaPad 3 series laptops do not feature a default automatic keyboard lightin
 
 <h1></h1>
 
-İşletim Sistemi / System Requirements:
+İşletim Sistemi / Operating System: Ubuntu 24.04 (GNOME Desktop) önerilir / (Recommended).
 
-Ubuntu 24.04 (GNOME Desktop).(önerilen) Çekirdek Desteği: ec_sys modülü write_support=1 parametresi ile yüklü olmalıdır. Kütüphaneler: python3, libnotify-bin (Desktop bildirimleri için). EC Kontrol: MSI cihazlar için geliştirilen ancak EC adresi üzerinden veri yazma yeteneği sayesinde Ideapad serisine adapte edilen isw aracı. Yetkilendirme: sudo visudo üzerinden NOPASSWD parametresi ile isw komutuna şifresiz erişim yetkisi.
+Çekirdek Desteği / Kernel Support: ec_sys modülü yüklü olmalıdır / ec_sys module must be loaded.
+
+Kütüphaneler / Libraries: python3, libnotify-bin (Desktop bildirimleri için / for desktop notifications).
+
+EC Kontrol / EC Control: MSI cihazlar için geliştirilen isw aracı. EC adresi üzerinden veri yazma yeteneği sayesinde Ideapad serisine adapte edilmiştir. / isw utility, originally developed for MSI devices, adapted for Ideapad series via EC address write access.
+
+Yetkilendirme / Authorization: sudo visudo üzerinden NOPASSWD parametresi ile isw komutuna şifresiz erişim yetkisi. / Passwordless access for isw command via NOPASSWD parameter in sudo visudo.
 
 <h1></h1>
 
