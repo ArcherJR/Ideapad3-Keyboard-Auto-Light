@@ -5,7 +5,7 @@
 
  ╚════════════════════════════════════════════════════════════════╝ 
 
-                      --by ArcherJR--
+by ArcherJR
 <h1></h1>
 Projenin Kısaca Hikayesi:
 
