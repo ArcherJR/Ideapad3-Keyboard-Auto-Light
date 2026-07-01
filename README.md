@@ -133,10 +133,12 @@ test:
 cat /sys/module/ec_sys/parameters/write_support
 ```
 
-if you see Y you do this
+If you got the output Y, it means you succeeded.
 
 you can delete Ideapad3-Keyboard-Auto-Light folder
 
 <h1></h1>
 
-Credits: This project utilizes isw by YoyPa for EC (Embedded Controller) communication. The isw utility is licensed under GPLv3. https://github.com/YoyPa/isw
+## Credits
+
+This project utilizes isw by YoyPa for EC (Embedded Controller) communication. The isw utility is licensed under GPLv3. https://github.com/YoyPa/isw
