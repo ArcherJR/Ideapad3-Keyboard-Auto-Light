@@ -52,7 +52,7 @@ Feedback: Upon successful execution, a desktop notification is sent to the user 
 
 <h1></h1>
 
-## Install Guide:
+## Install Guide
 
 ```bash
 git clone https://github.com/ArcherJR/Ideapad3-Keyboard-Auto-Light.git
@@ -112,6 +112,10 @@ chmod +x ~/.config/autostart/keyboard-light.desktop
 ```bash
 sudo nano /etc/modprobe.d/isw-ec_sys.conf
 ```
+
+<h1></h1>
+
+add to the bottom of the file:
 
 ```bash
 options ec_sys write_support=1
