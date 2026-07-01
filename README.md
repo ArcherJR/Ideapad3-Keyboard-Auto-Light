@@ -30,9 +30,23 @@ Yetkilendirme / Authorization: sudo visudo üzerinden NOPASSWD parametresi ile i
 
 <h1></h1>
 
-Architectural Scheme: 
+## Mimari Şema / Architectural Scheme
 
-Sistem kendi içerisinde sürekli çalışan bir döngüye sahiptir. Döngü: Python servisi sistem saatini okur. Mantık: Belirlenen eşik saatlerine göre isw aracını tetikler. Geri Bildirim: İşlem başarıyla sonuçlandığında notify-send ile masaüstü bildirimi tetiklenir.
+TR: Sistem, arka planda sürekli çalışan otonom bir döngüden oluşmaktadır:
+
+Döngü: Python servisi, sistemin güncel saatini düzenli aralıklarla okur.
+
+Mantık: Belirlenen eşik saatlerine (gün doğumu/gün batımı vb.) göre isw aracını tetikleyerek klavye ışığını ayarlar.
+
+Geri Bildirim: İşlem başarıyla sonuçlandığında, notify-send ile kullanıcıya masaüstü bildirimi gönderilir.
+
+EN: The system consists of an autonomous loop running in the background:
+
+Loop: The Python service continuously reads the current system time.
+
+Logic: It triggers the isw utility to adjust keyboard lighting based on defined threshold hours (e.g., sunrise/sunset).
+
+Feedback: Upon successful execution, a desktop notification is sent to the user via notify-send.
 
 <h1></h1>
 
