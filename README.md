@@ -52,7 +52,7 @@ Feedback: Upon successful execution, a desktop notification is sent to the user 
 
 <h1></h1>
 
-Install Guide:
+## Install Guide:
 
 ```bash
 git clone https://github.com/ArcherJR/Ideapad3-Keyboard-Auto-Light.git
