@@ -8,7 +8,7 @@
 by ArcherJR
 <h1></h1>
 
-# Projenin Hikayesi / Project Overview
+## Projenin Hikayesi / Project Overview
 
 TR: IdeaPad 3 serisi laptoplarda varsayılan olarak herhangi bir otomatik klavye aydınlatma mekanizmasına sahip değildir. Bu eksikliği gidermek ve manuel müdahale ihtiyacını ortadan kaldırarak kullanıcı konforunu artırmak adına, doğrudan EC (Embedded Controller) seviyesinde çalışan tamamen otonom bir aydınlatma sistemi geliştirilmiştir.
 
@@ -16,7 +16,7 @@ EN: IdeaPad 3 series laptops do not feature a default automatic keyboard lightin
 
 <h1></h1>
 
-# Gereksinimler / System Requirements
+## Gereksinimler / System Requirements
 
 İşletim Sistemi / Operating System: Ubuntu 24.04 (GNOME Desktop) önerilir / (Recommended).
 
