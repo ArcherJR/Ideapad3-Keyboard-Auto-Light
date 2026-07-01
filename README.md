@@ -145,4 +145,6 @@ you can delete Ideapad3-Keyboard-Auto-Light folder
 
 ## Credits
 
-This project utilizes isw by YoyPa for EC (Embedded Controller) communication. The isw utility is licensed under GPLv3. https://github.com/YoyPa/isw
+TR: Bu proje, EC (Gömülü Denetleyici) iletişimi için YoyPa tarafından geliştirilen [isw](https://github.com/YoyPa/isw) aracını kullanmaktadır. isw aracı, GPLv3 lisansı altındadır.
+
+EN: This project utilizes the [isw](https://github.com/YoyPa/isw) utility developed by YoyPa for EC (Embedded Controller) communication. The isw utility is licensed under GPLv3.
