@@ -97,6 +97,8 @@ add to the bottom of the file:
 ALL ALL=(ALL) NOPASSWD: /usr/local/bin/isw
 ```
 
+then ctrl + o    enter   ctrl + x
+
 ```bash
 cp keyboardAutoLightForIdeapad3.py ~
 ```
@@ -120,6 +122,8 @@ add to the bottom of the file:
 ```bash
 options ec_sys write_support=1
 ```
+
+then ctrl + o    enter   ctrl + x
 
 ```bash
 sudo reboot
