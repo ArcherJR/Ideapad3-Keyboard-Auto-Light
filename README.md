@@ -19,24 +19,75 @@ Sistem kendi içerisinde sürekli çalışan bir döngüye sahiptir. Döngü: Py
 <h1></h1>
 Install Guide:
 
+```bash
 git clone https://github.com/ArcherJR/Ideapad3-Keyboard-Auto-Light.git
+```
+
+```bash
 cd Ideapad3-Keyboard-Auto-Light
-ls
+```
+
+```bash
 sudo cp isw /usr/local/bin/
+```
+
+```bash
 sudo chmod +x /usr/local/bin/isw
+```
+
+```bash
 sudo cp isw.conf /etc/
+```
+
 test: isw -h
+
+```bash
 sudo nano /etc/modules
-add to the bottom of the file "ec_sys" 
+```
+
+<h1></h1>
+
+add to the bottom of the file
+```bash
+ec_sys 
+```
+
+```bash
 sudo visudo
-add to the bottom of the file ALL ALL=(ALL) NOPASSWD: /usr/local/bin/isw
+```
+<h1></h1>
+add to the bottom of the file:
+
+```bash
+ALL ALL=(ALL) NOPASSWD: /usr/local/bin/isw
+```
+
+```bash
 cp keyboardAutoLightForIdeapad3.py ~
+```
+
+```bash
 cp keyboard-light.desktop ~/.config/autostart/
+```
+
+```bash
 chmod +x ~/.config/autostart/keyboard-light.desktop
+```
+
+```bash
 sudo nano /etc/modprobe.d/isw-ec_sys.conf
+```
+
+```bash
 options ec_sys write_support=1
+```
+
+```bash
 sudo reboot
+```
+
 test: cat /sys/module/ec_sys/parameters/write_support
+
 if you see Y you do this
 
 you can delete Ideapad3-Keyboard-Auto-Light folder
