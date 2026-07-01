@@ -125,7 +125,13 @@ options ec_sys write_support=1
 sudo reboot
 ```
 
-test: cat /sys/module/ec_sys/parameters/write_support
+<h1></h1>
+
+test: 
+
+```bash
+cat /sys/module/ec_sys/parameters/write_support
+```
 
 if you see Y you do this
 
